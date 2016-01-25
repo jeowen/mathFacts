@@ -61,7 +61,7 @@
     NSString *numToDisplay = [NSString stringWithFormat:@"%d",r];
     self.firstNumber.text = numToDisplay;
     
-    int r2 = arc4random_uniform(12);
+    int r2 = arc4random_uniform(13);
     NSLog(@"2nd random = %i", r2);
     NSString *secondNumToDisplay = [NSString stringWithFormat:@"%d", r2];
     self.secondNumber.text = secondNumToDisplay;
